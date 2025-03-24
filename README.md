@@ -1,12 +1,57 @@
-# React + Vite
+# Product Store App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple React-based product store application that fetches product data from an API and allows users to search for products by name or category.
 
-Currently, two official plugins are available:
+## Features
+- Fetches product data from [DummyJSON API](https://dummyjson.com/).
+- Dynamic search functionality.
+- Smooth hover effects for better user experience.
+- Displays product name, brand (category), and price.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup and Installation
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd product-store-app
+   ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## Folder Structure
+```
+/src
+  ├── App.css
+  ├── App.js
+  ├── index.css
+  └── index.js
+```
+
+## Future Improvements
+- Add a loading spinner while fetching data.
+- Implement sorting and filtering by price.
+- Enhance UI with more styling and animations.
+- Error handling for network issues.
+
+## Technologies Used
+- React
+- JavaScript
+- CSS
+- DummyJSON API
+
+## License
+This project is open source and free to use.
+
+---
+
+Happy coding! 🎉
+
